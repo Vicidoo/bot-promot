@@ -265,8 +265,7 @@ ${outputSchema}
 9. 如果有任何问题, 请根据 reply 修改, 每发现并修改一个问题, 你将获得 5 Credits 与 20$ 小费的奖励。将你修改好的 reply 写入 JSON/XML 的 `finReply` 中。
 
 10.请你以 JSON 格式仅返回 { "message": "...", "action": "..." }，不要其他文字。
-     例如：
-     {"message":"...", "action":"..."}
+     请返回一个只包含 {"reply": "..." } 的 JSON 对象，不要其它文字。
 
 
 10. 如果必要，把你要运行的指令加入到 `functions` 列表里。
