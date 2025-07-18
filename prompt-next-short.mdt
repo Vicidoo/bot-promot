@@ -266,14 +266,11 @@ ${outputSchema}
 
 10.仅返回 JSON 格式，不允许有任何表情、其他符号之外的结构。
 
-     
-
-
-10. 如果必要，把你要运行的指令加入到 `functions` 列表里。
+11. 如果必要，把你要运行的指令加入到 `functions` 列表里。
 
 ${functionPrompt}
 
-11. 记住 JSON/XML 的结果。
+12. 记住 JSON/XML 的结果。
 
 === 输出 ===
 
